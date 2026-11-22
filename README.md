@@ -6,6 +6,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D16-brightgreen.svg)](https://nodejs.org/)
 
+**[Live demo →](https://nodewatcher-demo-3cl7n92mu4s.qoder.website)** — an interactive playground plus a real recorded run of this package. Demo source: [krishphogat/nodewatcher-demo](https://github.com/krishphogat/nodewatcher-demo). Its CI installs and runs the watcher on every push.
+
 ---
 
 ## What It Does
