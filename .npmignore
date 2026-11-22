@@ -1,0 +1,31 @@
+# Files and directories to exclude from the published npm package
+
+# Development / test files
+*.test.js
+*.spec.js
+test/
+tests/
+__tests__/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Misc
+.npmrc
+CHANGELOG.md

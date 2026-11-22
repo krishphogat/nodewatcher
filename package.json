@@ -1,0 +1,45 @@
+{
+  "name": "@krishphogat/nodewatcher",
+  "version": "0.1.0",
+  "description": "Zero-dependency CLI file watcher that runs a command on every change — with colorful output and debounce support.",
+  "type": "module",
+  "keywords": [
+    "file-watcher",
+    "watch",
+    "cli",
+    "fs.watch",
+    "nodemon-alternative",
+    "debounce",
+    "developer-tools"
+  ],
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://github.com/krishphogat/nodewatcher#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishphogat/nodewatcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/krishphogat/nodewatcher/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "bin": {
+    "nodewatcher": "bin/cli.js"
+  },
+  "exports": {
+    ".": {
+      "import": "./src/watcher.js",
+      "require": "./src/watcher.cjs"
+    }
+  },
+  "main": "./src/watcher.cjs",
+  "module": "./src/watcher.js",
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ]
+}
